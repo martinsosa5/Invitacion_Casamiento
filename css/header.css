@@ -68,3 +68,28 @@
     box-shadow: 0px 0px 6px var(--colorAzul);
     z-index: 4;
 }
+
+/* MEDIAS QUERIES */
+/* Estilos para tablet */
+@media (min-width: 360px) {
+   .h1_nosCasamos{
+    font-size: 4.8rem;
+}
+.h4_fecha{
+    font-family: "Libertinus Serif";
+    font-size: 1.2rem;
+}
+.h3_noticia{
+    font-size: 2rem;
+}
+
+
+
+}
+
+
+/* Estilos para laptop */
+@media (min-width: 1280px) {
+  
+
+}

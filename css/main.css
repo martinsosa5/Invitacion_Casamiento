@@ -95,3 +95,41 @@
     background-color: var(--colorGrisClaro);
     border: 1px solid ;
 }
+
+
+/* MEDIAS QUERIES */
+/* Estilos para tablet */
+@media (max-width: 375px) {
+  .name_cont{
+    font-size: 1.6rem;
+  }
+
+  .nombres_p{
+    font-size: 0.7rem;
+  }
+
+  .nombres_titulo{
+    font-size: 0.8rem;
+  }
+
+  .h3_llega{
+    font-size: 1.2rem;
+  }
+
+  .historia
+  {
+    font-size: 0.9rem;
+  }
+
+  .p_descr_contador{
+    font-size: 0.8rem;
+  }
+
+}
+
+
+/* Estilos para laptop */
+@media (min-width: 1280px) {
+  
+
+}
