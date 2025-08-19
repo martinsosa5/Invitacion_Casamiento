@@ -42,10 +42,29 @@
 }
 .name_cont{
     font-family: "Monsieur La Doulaise";
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 }
 
 .p_fin{
     font-family: "Libertinus Serif";
     font-size: 1.1rem;
+}
+
+.contenedor_Botonflotante{
+    position: relative; /* Establece el contexto de posición */
+}
+.floating-button {
+    position: fixed;
+    bottom: 20px; /* Ajusta este valor para mover el botón más arriba o más abajo */
+    right: 20px;  /* Ajusta este valor para acercarlo o alejarlo del borde derecho */
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 0px 0px 6px var(--colorAzul);
+    z-index: 4;
 }
