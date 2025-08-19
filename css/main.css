@@ -1,0 +1,97 @@
+/* Estilos de la capa de superposición */
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--colorCeleste); /* Capa semitransparente */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999; /* Se coloca en el frente */
+}
+.contenedor_superposicion{
+    background-size: cover; /* Ajustar la imagen al tamaño del contenedor */
+    background-position: center; /* Centrar la imagen */
+    background-repeat: no-repeat; /* Evitar que la imagen se repita */
+}
+/* Estilo del botón */
+#ingresarBtn {
+    padding: 5px 15px;
+    font-size: 18px;
+    color: white;
+    background-color: var(--colorGris);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contenedor_superposicion h1{
+    color: var(--colorDorado);
+    font-size: 55px;
+    font-family: var( --tipografiaDancing-Script);
+    font-weight: bold;
+}
+
+.contenedor_superposicion h5{
+    color: var(--colorCeleste);
+    font-weight: 300;
+}
+
+.contenedor_lugar{
+    background-color: var(--colorGrisClaro);
+}
+
+.contenedor_desscode{
+    background-color: var(--colorGrisClaro);
+}
+
+.card_dresscode img{
+    width: 30%;
+    height: auto;
+    object-fit: cover;
+}
+
+.h1_hora{
+    font-size: 3.5rem;
+}
+
+.contenedor_lugares{
+     background-color: var(--colorGris);
+}
+.contenedor_lugares h5{
+     font-family:'Arial';
+}
+
+.boton-wsp{
+    background-color: rgb(37, 211, 102);
+    color: aliceblue;
+    font-family: var(--tipografiaMerriweather-Sans);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.boton-wsp:hover{
+    background-color:aliceblue ;
+    color: rgb(37, 211, 102);
+    border: 2px solid;
+}
+
+.h1_myj{
+    font-family: var(--tipografiaMonsieur);
+    font-size: 3rem;
+}
+
+.contenedor_unete{
+  background-color: var(--colorGrisClaro);
+}
+
+.boton-mapa{
+    background-color: var(--colorGris);
+    color: white;
+}
+.boton-mapa:hover{
+    background-color: var(--colorGrisClaro);
+    border: 1px solid ;
+}

@@ -1,0 +1,15 @@
+/*mediante root puedo pegar algo a todo el documento defino las variables que voy a utilizar */
+:root {
+    --tipografiaBebasNeur: 'Bebas Neue', 'Arial';
+    --tipografiaUnifrackturCook: 'UnifrakturCook', 'Arial';
+    --tipografiaLibertinus: 'Libertinus Serif', 'Arial';
+    --tipografiaMonsieur: 'Imperial Script', 'Arial';
+
+    --colorRosa: #d6769c;
+    --colorRosaBlanco: #fff6f9;
+    --colorCeleste: #f3f5fb;
+    --colorAzul: #2a394c;
+    --colorGris: #6a6a6a;
+    --colorGrisClaro: #dad9d9;
+    --colorDorado:#c1c29a;
+}
